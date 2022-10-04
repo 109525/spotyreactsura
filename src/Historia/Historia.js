@@ -1,8 +1,10 @@
+import './Historia.css'
+import {Carrusel} from '../Carrusel/Carrusel.js'
 export function Historia(){
 
     return(
         <>
-            <h1>HOLA ME LLAMO HISTORIA Y SOY UN COMPONENTE </h1>
+            <Carrusel></Carrusel>
         </>
     )
 }

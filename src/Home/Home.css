@@ -1,0 +1,6 @@
+.banner{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/spotify-7bc7b.appspot.com/o/maxresdefault.jpg?alt=media&token=53c84e6e-b6df-4c29-949d-bfc84b3d68be');
+    background-position: top center;
+    background-size: cover;
+    padding: 5% 20% 45% 20%;
+}
