@@ -5,6 +5,7 @@ import {Historia} from "../Historia/Historia.js"
 import {Integrantes} from "../Integrantes/Integrantes.js"
 import {Albumes} from "../Albumes/Albumes.js"
 import {Menu} from "../Menu/Menu.js"
+import { Musicos } from "../Musicos/Musicos.js";
 
 export function Rutas() {
     return (
@@ -13,7 +14,8 @@ export function Rutas() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="historia" element={<Historia />} />
-          <Route path="integrantes" element={<Integrantes />} />
+          <Route path="menu" element={<Menu/>}/>
+          <Route path="integrantes" element={<Musicos/>}/>
           <Route path="albumes" element={<Albumes />} />
         </Routes>
       </div>
