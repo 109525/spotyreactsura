@@ -12,9 +12,9 @@ export function Footer(){
                     </div>
                     <div className="col-12 col-md-6 border-start align-self-center">                    
                         <div>
-                            <i class="bi bi-linkedin"></i>
-                            <i class="bi bi-github"></i>
-                            <i class="bi bi-instagram"></i>
+                            <i className="bi bi-linkedin"></i>
+                            <i className="bi bi-github"></i>
+                            <i className="bi bi-instagram"></i>
                         </div>
                     </div>
                 </div>
